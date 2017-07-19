@@ -146,7 +146,7 @@ var config = {
 module.exports = config;
 ```
 
-## Copy and paste the following content to  src/index.jsx ( final version )
+## Copy and paste the following content to  src/index.jsx
 
 ```
 import React from 'react';
