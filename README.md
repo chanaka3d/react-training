@@ -84,9 +84,8 @@ Now create the following folder and file structure
 Add the babel configuration json file ( .babelrc ) with the following command. This is to let babel know that we need to use the previously install es2015 preset and react preset.
 > echo '{ "presets": ["es2015","react"] }' > .babelrc
 
-====================================================================
-Copy and paste the following content to dist/index.html
-====================================================================
+##Copy and paste the following content to dist/index.html
+
 
 <html>
   <head>
@@ -99,9 +98,7 @@ Copy and paste the following content to dist/index.html
   </body>
 </html>
 
-====================================================================
-Copy and paste the following content to webpack.config.js
-====================================================================
+##Copy and paste the following content to webpack.config.js
 
 var webpack = require('webpack');
 var path = require('path');
@@ -135,9 +132,8 @@ var config = {
 module.exports = config;
 
 
-====================================================================
-Copy and paste the following content to  src/index.jsx ( final version )
-====================================================================
+##Copy and paste the following content to  src/index.jsx ( final version )
+
 
 import React from 'react';
 import {render} from 'react-dom';
@@ -151,9 +147,7 @@ class App extends React.Component {
 render(<App/>, document.getElementById('app'));
 
 
-=========================================================================
-
-Now add the new build task to the package.json
+##Now add the new build task to the package.json
 
 "dev": "webpack-dev-server"
 
