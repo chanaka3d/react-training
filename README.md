@@ -71,7 +71,7 @@ It will ask some questions. Press enter/return and accept the default options.
 
 New file is created ( package.json )
 
-Install the following dependencies
+Install the following devolopment dependencies
 ```
 npm install --save-dev webpack
 npm install --save-dev babel-core
@@ -79,7 +79,7 @@ npm install --save-dev babel-loader
 npm install --save-dev babel-preset-es2015
 npm install --save-dev babel-preset-react
 ```
----------Install Dependencies ( 	 webpack )
+Install dependencies
 ```
 npm install --save react
 npm install --save react-dom
@@ -170,7 +170,7 @@ Run the newly created task ( dev )
 npm run dev
 ```
 
-It will show you the url to browse.
+Now you can browse to http://localhost:3333 to see the reults.
 
 
 
