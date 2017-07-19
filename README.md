@@ -99,7 +99,7 @@ echo '{ "presets": ["es2015","react"] }' > .babelrc
 ```
 ## Copy and paste the following content to dist/index.html
 
-
+```
 <html>
   <head>
     <meta charset="utf-8">
@@ -110,9 +110,10 @@ echo '{ "presets": ["es2015","react"] }' > .babelrc
     <script src="bundle.js" type="text/javascript"></script>
   </body>
 </html>
+```
 
 ## Copy and paste the following content to webpack.config.js
-
+```
 var webpack = require('webpack');
 var path = require('path');
 
@@ -143,11 +144,11 @@ var config = {
 };
 
 module.exports = config;
-
+```
 
 ## Copy and paste the following content to  src/index.jsx ( final version )
 
-
+```
 import React from 'react';
 import {render} from 'react-dom';
 
@@ -158,12 +159,12 @@ class App extends React.Component {
 }
 
 render(<App/>, document.getElementById('app'));
-
+```
 
 ## Now add the new build task to the package.json
-
+```
 "dev": "webpack-dev-server"
-
+```
 Run the newly created task ( dev )
 ```
 npm run dev
