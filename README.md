@@ -85,14 +85,14 @@ npm install --save react
 npm install --save react-dom
 ```
 Now create the following folder and file structure
-
+```
 ├── dist
 │   └── index.html
 ├── package.json
 ├── src
 │   └── index.jsx
 └── webpack.config.js
-
+```
 Add the babel configuration json file ( .babelrc ) with the following command. This is to let babel know that we need to use the previously install es2015 preset and react preset.
 ```
 echo '{ "presets": ["es2015","react"] }' > .babelrc
